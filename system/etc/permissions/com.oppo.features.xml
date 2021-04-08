@@ -1,0 +1,20 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<!-- COLOR_EDIT.  add oppo.screen.hovering.support ;remove oppo.narrow.frame -->
+<permissions>
+	<feature name="oppo.hw.manufacturer.qualcomm" />
+	<feature name="oppo.sw.solution.device" />
+	<feature name="oppo.inexact.alarm" />
+	<feature name="oppo.filtrated.app" />
+	<feature name="oppo.multi.touch.camera.support" />
+	<feature name="oppo.double.flinger.volume.support" />
+	<feature name="oppo.support.single.partition" />
+	<feature name="oppo.memory.auto.deep.clean" />
+	<!-- #ifdef VENDOR_EDIT-->
+	<!-- #ShaoQiang@EXP.SysFramework.Framework, 2015/08/07, deleted-->
+	<!--<feature name="oppo.memory.auto.silence.reboot" />-->
+	<!-- #endif VENDOR_EDIT-->
+	<feature name="oppo.memory.auto.clean" />
+	<feature name="oppo.guard.elf.support" />
+	<!-- Yinqi.Xiong@Swdp.Android.Performance.Power, 2016/09/07, add for net wake up control: -->
+    <feature name="oppo.performance.power.netwake" />
+</permissions>

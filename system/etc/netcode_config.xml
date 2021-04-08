@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (c) 2013-2014 Qualcomm Technologies, Inc.  All Rights Reserved.
+** Qualcomm Technologies Proprietary and Confidential.
+*/
+-->
+<!-- use empty string to specify no proxy or port -->
+<!-- If you edit this version, also edit the version in the partner-supplied
+    netcode_config.xml configuration file -->
+<!-- #ifndef VENDOR_EDIT -->
+<!-- DeDong.Wei@EXP.CommService.Telephony.Reg, 2016/08/19, Modify for[cancel NP mcc code in India]-->
+<!-- #endif VENDOR_EDIT -->
+
+<netcode version="20160819">
+	<tw_list region="TW">
+		<whitelist> 
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="32670efe0d7619c5" category="472e2f766525d86e"/>	
+			<plmn country="b4245658f484cd5c" mcc="e5fbbdec4c0ef311" mnc="32670efe0d7619c5" category="472e2f766525d86e"/>  
+			<plmn country="7d896113bc3d5a24" mcc="da984ace58695ce4" mnc="32670efe0d7619c5" category="472e2f766525d86e"/>
+			<plmn country="e3f959c140e2474b" mcc="8a58ef6f65938871" mnc="32670efe0d7619c5" category="472e2f766525d86e"/>
+		</whitelist>
+		<blacklist>		
+		</blacklist>   
+	</tw_list>
+	
+	<in_list region="IN">
+		<whitelist>			
+		</whitelist>
+		<blacklist>   
+			<plmn country="4bdf7b89a82d5530" mcc="f7e6e82e7f0858ba" mnc="32670efe0d7619c5" category="930c8c3874dd5773"/>	
+			<plmn country="0d31d2fb5064c9b4" mcc="ac2a152c8aca4c81" mnc="32670efe0d7619c5" category="930c8c3874dd5773"/>  
+			<plmn country="efe0dec6de84dcb1" mcc="0b171e1972d308d3" mnc="32670efe0d7619c5" category="930c8c3874dd5773"/>
+		</blacklist>   
+	</in_list>	
+	
+	<sg_list region="SG">
+		<whitelist>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="32670efe0d7619c5" category="472e2f766525d86e"/>
+			<plmn country="3c44cddb8fafe482" mcc="76d8b5f73304e925" mnc="32670efe0d7619c5" category="472e2f766525d86e"/>	
+			<plmn country="77d0c747615327e1" mcc="6ec4257d67a96752" mnc="32670efe0d7619c5" category="472e2f766525d86e"/> 	
+		</whitelist>
+		<blacklist>
+
+		</blacklist>   
+	</sg_list>
+	
+	<au_list region="AU">
+		<whitelist>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="32670efe0d7619c5" category="472e2f766525d86e"/>
+			<plmn country="d8d881242bb5196c" mcc="d64bd675f32f1038" mnc="32670efe0d7619c5" category="472e2f766525d86e"/>
+		</whitelist>
+		<blacklist>
+
+		</blacklist>
+	</au_list>
+	
+	<dz_list region="DZ">
+		<whitelist>		
+		</whitelist>
+		<blacklist> 
+			<plmn country="77d07c90a937af0e" mcc="3a1f462673861d61" mnc="32670efe0d7619c5" category="930c8c3874dd5773"/>	
+		</blacklist>
+	</dz_list>	
+
+	<testcu_list region="testcu" >
+		<whitelist>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="db53ebb6466ee8a6" category="472e2f766525d86e"/>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="b2479687d89f8e6c" category="472e2f766525d86e"/>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="65ae52fd01e76bb6" category="472e2f766525d86e"/>
+		</whitelist>
+		<blacklist>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="6af767b2febaa903" category="930c8c3874dd5773"/>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="8740d5aa52f239cf" category="930c8c3874dd5773"/>
+		</blacklist>
+	</testcu_list>
+	
+	<testcmcc_list region="testcmcc">
+		<whitelist> 
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="6af767b2febaa903" category="472e2f766525d86e"/>	
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="8740d5aa52f239cf" category="472e2f766525d86e"/>  
+		</whitelist>
+		<blacklist>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="db53ebb6466ee8a6" category="930c8c3874dd5773"/>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="b2479687d89f8e6c" category="930c8c3874dd5773"/>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="65ae52fd01e76bb6" category="930c8c3874dd5773"/>
+		</blacklist>   
+	</testcmcc_list>
+	
+	<testall_list region="testall">
+		<whitelist> 		
+		</whitelist>
+		<blacklist>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="6af767b2febaa903" category="930c8c3874dd5773"/>	
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="8740d5aa52f239cf" category="930c8c3874dd5773"/>  
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="db53ebb6466ee8a6" category="930c8c3874dd5773"/>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="b2479687d89f8e6c" category="930c8c3874dd5773"/>
+			<plmn country="578b637e60d66f33" mcc="d54f2b749050059d" mnc="65ae52fd01e76bb6" category="930c8c3874dd5773"/>
+		</blacklist>   
+	</testall_list>
+	<endcode>
+	</endcode>
+</netcode>

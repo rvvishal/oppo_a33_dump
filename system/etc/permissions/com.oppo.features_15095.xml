@@ -1,0 +1,25 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+
+<permissions>
+	<feature name="oppo.feature.15095" />
+	<feature name="oppo.qualcomm.gemini.support" />
+	<feature name="oppo.memory.auto.clean" />
+	<feature name="oppo.breath.light.support" />
+	<feature name="oppo.eye.protection.support" />
+	<!-- Tong.han@BSP.Group.Tp, 2014/09/26, Add for OTG switch support -->
+	<feature name="oppo.otg.connection.menu.support" />
+	<feature name="oppo.screen.hovering.support" />
+	<feature name="oppo.black.gesture.proximitysensor.support" />
+	<!-- LinJie.Xu@Swdp.Android.USB, 2014/09/26, Add for Camera support camera quick shot -->
+	<feature name="oppo.quick.shot.support" />
+	<!-- XiaWei@Tool, 2015/08/18, Add for disable leather -->
+	<feature name="oppo.disable.small.window.leather" />
+	<!--wangjimin@EXP.SysFramework,add low memory feature for 15095,20150826  -->
+	<feature name="oppo.low.ram" />
+	<feature name="oppo.memory.low.capacity" />
+	<!--Junren_Jie@EXP.SysFramework,remove APP2SD feature for 15095,20150910  -->
+	<feature name="oppo.app2sd.disabled" />
+	<!-- DeDong.Wei@EXP.CommService.Phone, 2015/07/28, Add for not support hot plug at AP-->
+	<feature name="oppo.commcenter.reboot.dialog" />
+	<!-- #endif //VENDOR_EDIT -->
+</permissions>
